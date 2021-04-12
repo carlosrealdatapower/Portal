@@ -1,0 +1,20 @@
+.center-grupo {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.graph-container {
+  margin-left: 20vw;
+
+  width: 70vw;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

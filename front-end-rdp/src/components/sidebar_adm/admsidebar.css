@@ -1,0 +1,52 @@
+aside.app-sidebar {
+  position: fixed;
+  height: 100%;
+  padding: 32px 24px;
+  background: linear-gradient(329.54deg, #d67215 0%, #15d6d6 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside.app-sidebar img {
+  width: 150px;
+}
+
+aside.app-sidebar a,
+aside.app-sidebar button {
+  width: 198px;
+  height: 58px;
+
+  border: 0;
+
+  color: #fff;
+  background: #017e94;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside.app-sidebar footer a:hover,
+aside.app-sidebar footer button:hover {
+  background: #17d6eb;
+}
+
+aside.app-sidebar button:hover {
+  background: #24b8c9;
+}
+
+.buttonCadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
